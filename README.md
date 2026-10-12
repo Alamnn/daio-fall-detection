@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-purple.svg" alt="MIT License">
 </p>
 
-> **DAÏO** (Intelligent Vision-Based Fall Detection System) is an open-source, edge-native, real-time fall detection pipeline developed by **Alamin Abubakar Nataala** at **SEGi University**. It is designed to overcome the **high false positive rate (FPR)** and **occlusion degradation** common in traditional vision-based systems. It models human body mechanics using **MediaPipe BlazePose**, an **Extended Kalman Filter (EKF) with Adaptive Measurement Noise**, an **Analytical Torso Angle Jacobian**, and a stateful **Triple-Check Logic Engine with Kinematic Velocity Latching**.
+> **DAÏO** (Intelligent Vision-Based Fall Detection System) is an open-source, edge-native, real-time fall detection pipeline developed by **Alamin Abubakar Nataala**. It is designed to overcome the **high false positive rate (FPR)** and **occlusion degradation** common in traditional vision-based systems. It models human body mechanics using **MediaPipe BlazePose**, an **Extended Kalman Filter (EKF) with Adaptive Measurement Noise**, an **Analytical Torso Angle Jacobian**, and a stateful **Triple-Check Logic Engine with Kinematic Velocity Latching**.
 >
 > 📄 **Official Research Publication:** [Read on ResearchGate](https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision)
 
