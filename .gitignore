@@ -1,0 +1,35 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Media & Large Videos (User can regenerate demo clips using tools/generate_demo_videos.py)
+DataVideos/real_fall_test.mp4
+DataVideos/fall_sample.mp4
+
+# Test & Evaluation outputs
+Sauvegrade/
+Sauvegrade_Bench/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
