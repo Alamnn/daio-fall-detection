@@ -2,8 +2,6 @@
 
 <p align="center">
   <a href="https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision"><img src="https://img.shields.io/badge/ResearchGate-Publication-00CCBB?logo=researchgate&logoColor=white" alt="ResearchGate Publication"></a>
-  <img src="https://img.shields.io/badge/Author-Alamin%20Abubakar%20Nataala-informational" alt="Author">
-  <img src="https://img.shields.io/badge/Institution-SEGi%20University-blue" alt="SEGi University">
   <img src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/Filtering-Extended%20Kalman%20Filter-orange" alt="Extended Kalman Filter">
   <img src="https://img.shields.io/badge/Speed-35.7%20FPS%20(Edge%20Ready)-brightgreen" alt="Edge Ready FPS">
@@ -314,25 +312,6 @@ detector.triple_check.position_drop_threshold = 0.50  # 50% height drop
 detector.triple_check.torso_angle_threshold = 45.0  # Horizontal ground angle (< 45 deg)
 detector.triple_check.velocity_threshold_mps = 1.5  # Downward velocity trigger (m/s)
 detector.triple_check.velocity_latch_duration_frames = 75  # 2.5s latch window at 30 FPS
-```
-
----
-
-## 10. Citation & Academic Credits
-
-If you use or build upon the **DAÏO** architecture in academic research, thesis projects, or commercial applications, please cite:
-
-```bibtex
-@article{nataala2025daio,
-  title        = {DAÏO: A High-Specificity Real-Time Vision-Based Fall Detection System Using Advanced Kinematic Tracking and Computer Vision},
-  author       = {Nataala, Alamin Abubakar},
-  institution  = {Faculty of Engineering, Built Environment, and Information Technology, SEGi University},
-  school       = {SEGi University},
-  year         = {2025},
-  month        = {November},
-  howpublished = {ResearchGate},
-  url          = {https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision}
-}
 ```
 
 ---
