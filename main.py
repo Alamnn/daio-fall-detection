@@ -1,6 +1,7 @@
 """
 DAÏO Main Application Launcher.
-Author: Al-Amin Abubakar
+Author: Alamin Abubakar Nataala (SEGi University)
+Publication: https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision
 
 Usage:
     python main.py                   # Launch Desktop GUI (ttkbootstrap)

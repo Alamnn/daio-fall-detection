@@ -201,7 +201,7 @@ class FallDetectionApp:
         # Footer
         footer = tb.Frame(self.root, padding=4)
         footer.pack(fill=X, side=BOTTOM)
-        tb.Label(footer, text="© 2024-2026 Al-Amin Abubakar. DAÏO Real-Time Vision Fall Detection with Extended Kalman Filter.", font=("Helvetica", 9), bootstyle="secondary").pack(side=LEFT)
+        tb.Label(footer, text="© 2024-2026 Alamin Abubakar Nataala (SEGi University). DAÏO Real-Time Vision Fall Detection with Extended Kalman Filter.", font=("Helvetica", 9), bootstyle="secondary").pack(side=LEFT)
 
     def _load_sample_videos(self) -> None:
         """Populates the benchmark videos combo box."""

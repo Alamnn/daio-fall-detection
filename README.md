@@ -1,15 +1,18 @@
 # DAÏO: High-Specificity Real-Time Vision-Based Fall Detection System
 
 <p align="center">
+  <a href="https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision"><img src="https://img.shields.io/badge/ResearchGate-Publication-00CCBB?logo=researchgate&logoColor=white" alt="ResearchGate Publication"></a>
+  <img src="https://img.shields.io/badge/Author-Alamin%20Abubakar%20Nataala-informational" alt="Author">
+  <img src="https://img.shields.io/badge/Institution-SEGi%20University-blue" alt="SEGi University">
   <img src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python" alt="Python 3.11+">
-  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV%20%26%20MediaPipe-green?logo=opencv" alt="OpenCV & MediaPipe">
   <img src="https://img.shields.io/badge/Filtering-Extended%20Kalman%20Filter-orange" alt="Extended Kalman Filter">
   <img src="https://img.shields.io/badge/Speed-35.7%20FPS%20(Edge%20Ready)-brightgreen" alt="Edge Ready FPS">
   <img src="https://img.shields.io/badge/License-MIT-purple.svg" alt="MIT License">
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
 </p>
 
-> **DAÏO** (Intelligent Vision-Based Fall Detection System) is an open-source, edge-native, real-time fall detection pipeline designed to overcome the **high false positive rate (FPR)** and **occlusion degradation** common in traditional vision-based systems. It models human body mechanics using **MediaPipe BlazePose**, an **Extended Kalman Filter (EKF) with Adaptive Measurement Noise**, an **Analytical Torso Angle Jacobian**, and a stateful **Triple-Check Logic Engine with Kinematic Velocity Latching**.
+> **DAÏO** (Intelligent Vision-Based Fall Detection System) is an open-source, edge-native, real-time fall detection pipeline developed by **Alamin Abubakar Nataala** at **SEGi University**. It is designed to overcome the **high false positive rate (FPR)** and **occlusion degradation** common in traditional vision-based systems. It models human body mechanics using **MediaPipe BlazePose**, an **Extended Kalman Filter (EKF) with Adaptive Measurement Noise**, an **Analytical Torso Angle Jacobian**, and a stateful **Triple-Check Logic Engine with Kinematic Velocity Latching**.
+>
+> 📄 **Official Research Publication:** [Read on ResearchGate](https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision)
 
 ---
 
@@ -320,12 +323,15 @@ detector.triple_check.velocity_latch_duration_frames = 75  # 2.5s latch window a
 If you use or build upon the **DAÏO** architecture in academic research, thesis projects, or commercial applications, please cite:
 
 ```bibtex
-@article{abubakar2025daio,
-  title   = {DAÏO: A High-Specificity Real-Time Vision-Based Fall Detection System Using Advanced Kinematic Tracking and Computer Vision},
-  author  = {Abubakar, Al-Amin},
-  journal = {Faculty of Engineering, Built Environment, and Information Technology},
-  year    = {2025},
-  month   = {November}
+@article{nataala2025daio,
+  title        = {DAÏO: A High-Specificity Real-Time Vision-Based Fall Detection System Using Advanced Kinematic Tracking and Computer Vision},
+  author       = {Nataala, Alamin Abubakar},
+  institution  = {Faculty of Engineering, Built Environment, and Information Technology, SEGi University},
+  school       = {SEGi University},
+  year         = {2025},
+  month        = {November},
+  howpublished = {ResearchGate},
+  url          = {https://www.researchgate.net/publication/410377796_DAIO_A_High-Specificity_Real-TimeVision-Based_Fall_Detection_SystemUsing_Advanced_Kinematic_Tracking_andComputer_Vision}
 }
 ```
 
