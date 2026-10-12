@@ -297,8 +297,7 @@ daio-fall-detection/
 
 ## 9. Configuration & Threshold Tuning
 
-You can adjust key parameters directly in [`daio/triple_check.py`](file:///Users/amin/.gemini/antigravity-ide/scratch/daio-fall-detection/daio/triple_check.py) or when instantiating `DAIOFallDetector`:
-
+You can adjust key parameters directly in [`daio/triple_check.py`]
 ```python
 detector = DAIOFallDetector(
     fps=30.0,
